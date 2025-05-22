@@ -1,0 +1,10 @@
+#cool {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+img {
+    width: 300px;
+    object-fit: contain;
+}
