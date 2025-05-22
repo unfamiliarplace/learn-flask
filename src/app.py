@@ -9,7 +9,7 @@ def hello_world():
 
 @app.route('/hi')
 def say_hi():
-    return render_template('hi.html')
+    return render_template('hi.html', title='The Hi Page')
 
 if __name__ == '__main__':
     app.run()
